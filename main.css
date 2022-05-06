@@ -1,0 +1,17 @@
+header p{
+    background-color: #9772FB;
+    margin-top: 0%;
+    max-height: none;
+    min-height: 60px;
+    padding: 0%;
+    border: 0%;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    position: relative;
+    display: block;
+}
