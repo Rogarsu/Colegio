@@ -33,3 +33,62 @@ nav li a:hover {
   .active {
     background-color: #F32424;
   }
+  .sidebar{
+    margin: 0px;
+  }
+  
+  .sidebar img{
+    margin: 0%;
+    width: 100%;
+    /* height: auto; */
+    max-height: 400px;
+  }
+  .footer{
+    margin-top: 5px;
+    width: auto;
+    padding: 10px;
+  }
+  .footer ul{
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #9772FB;
+  }
+
+.footer li{
+    width: 25%;
+    position: relative; 
+    float: left;
+    display: block;
+
+    
+
+}
+.footer li div{
+  display: block;
+}
+ .footer p{
+   display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+} 
+
+
+
+nav li{
+    position: relative;
+    float: left;
+
+}
+nav a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
