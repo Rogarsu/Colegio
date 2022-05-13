@@ -49,11 +49,11 @@ nav li a:hover {
     padding: 10px;
   }
   .footer ul{
-    display: block;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #9772FB;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #9772FB;
   }
 
 .footer li{
@@ -76,16 +76,35 @@ nav li a:hover {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: block;
 } 
+
 .section{
-  margin-bottom: 100px;
-  margin-left: auto;
+  margin-left: 100px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.section  li{
+.section a{
+  color: #764AF1;
+}
+.section ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:  #F2F2F2;
+}
+
+.section li{
+  position: relative;
+  float: left;
   width: 30%;
-    position: relative; 
-    float: left;
-    display: block;
-    ma
+}
+.section img{
+  min-width: auto;
+  max-width: 70%;
+  min-height: auto;
+  max-height: 70%;
+  width: auto;
+  height: auto;
+
 }
 
 nav li{
