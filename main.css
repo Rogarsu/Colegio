@@ -76,8 +76,17 @@ nav li a:hover {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: block;
 } 
-
-
+.section{
+  margin-bottom: 100px;
+  margin-left: auto;
+}
+.section  li{
+  width: 30%;
+    position: relative; 
+    float: left;
+    display: block;
+    ma
+}
 
 nav li{
     position: relative;
